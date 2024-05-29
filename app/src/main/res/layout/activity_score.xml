@@ -9,23 +9,23 @@
 
     <TextView
         android:id="@+id/score"
-        android:layout_width="262dp"
-        android:layout_height="65dp"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="183dp"
-        android:layout_marginEnd="87dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="197dp"
+        android:gravity="center"
         android:text="your score is :"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/again"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="82dp"
-        android:layout_marginEnd="170dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="46dp"
         android:text="play again"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
